@@ -1,0 +1,8 @@
+{"timestamp": "2026-04-22T15:44:31.639960+00:00", "level": "info", "message": "job_start", "input": "data.csv", "config": "config.yaml", "output": "metrics.json", "log_file": "run.log"}
+{"timestamp": "2026-04-22T15:44:31.641406+00:00", "level": "info", "message": "config_loaded", "version": "v1", "seed": 42, "window": 5}
+{"timestamp": "2026-04-22T15:44:32.128510+00:00", "level": "info", "message": "seed_set", "seed": 42}
+{"timestamp": "2026-04-22T15:44:32.129228+00:00", "level": "info", "message": "rows_loaded", "rows_loaded": 10}
+{"timestamp": "2026-04-22T15:44:32.129345+00:00", "level": "info", "message": "processing_started", "operation": "rolling_mean_and_signal", "window": 5, "warmup_policy": "first_window_minus_1_rows_have_nan_rolling_mean_and_signal_0"}
+{"timestamp": "2026-04-22T15:44:32.130322+00:00", "level": "info", "message": "processing_completed", "rows_processed": 10}
+{"timestamp": "2026-04-22T15:44:32.131515+00:00", "level": "info", "message": "metrics_summary", "rows_processed": 10, "signal_rate": 0.6, "latency_ms": 491}
+{"timestamp": "2026-04-22T15:44:32.131627+00:00", "level": "info", "message": "job_end", "status": "success"}

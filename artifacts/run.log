@@ -1,0 +1,16 @@
+{"timestamp": "2026-04-22T08:10:14.102418+00:00", "level": "info", "message": "job_start", "input": "data/market_prices.csv", "config": "config.yaml", "output": "artifacts/metrics.json", "log_file": "artifacts/run.log"}
+{"timestamp": "2026-04-22T08:10:14.105309+00:00", "level": "info", "message": "config_loaded", "version": "v1", "seed": 42, "window": 5}
+{"timestamp": "2026-04-22T08:10:14.106041+00:00", "level": "info", "message": "seed_set", "seed": 42}
+{"timestamp": "2026-04-22T08:10:14.143912+00:00", "level": "info", "message": "rows_loaded", "rows_loaded": 12544}
+{"timestamp": "2026-04-22T08:10:14.144276+00:00", "level": "info", "message": "processing_started", "operation": "rolling_mean_and_signal", "window": 5}
+{"timestamp": "2026-04-22T08:10:14.228709+00:00", "level": "info", "message": "processing_completed", "rows_processed": 12540}
+{"timestamp": "2026-04-22T08:10:14.230144+00:00", "level": "info", "message": "metrics_summary", "rows_processed": 12540, "signal_rate": 0.4987, "latency_ms": 128}
+{"timestamp": "2026-04-22T08:10:14.230501+00:00", "level": "info", "message": "job_end", "status": "success"}
+{"timestamp": "2026-04-22T00:53:01.683374+00:00", "level": "info", "message": "job_start", "input": "data/input.csv", "config": "config.yaml", "output": "artifacts/metrics.json", "log_file": "artifacts/run.log"}
+{"timestamp": "2026-04-22T00:53:01.686053+00:00", "level": "info", "message": "config_loaded", "version": "v1", "seed": 42, "window": 5}
+{"timestamp": "2026-04-22T00:53:01.846678+00:00", "level": "info", "message": "seed_set", "seed": 42}
+{"timestamp": "2026-04-22T00:53:01.858509+00:00", "level": "info", "message": "rows_loaded", "rows_loaded": 10}
+{"timestamp": "2026-04-22T00:53:01.858599+00:00", "level": "info", "message": "processing_started", "operation": "rolling_mean_and_signal", "window": 5}
+{"timestamp": "2026-04-22T00:53:01.859663+00:00", "level": "info", "message": "processing_completed", "rows_processed": 6}
+{"timestamp": "2026-04-22T00:53:01.860651+00:00", "level": "info", "message": "metrics_summary", "rows_processed": 6, "signal_rate": 1.0, "latency_ms": 177}
+{"timestamp": "2026-04-22T00:53:01.860759+00:00", "level": "info", "message": "job_end", "status": "success"}
